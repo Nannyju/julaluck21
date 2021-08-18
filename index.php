@@ -48,9 +48,6 @@ $user_data = array_slice($user_data, 0);
  <br> 
  <h2>Map</h2>  
 <iframe src="https://thingspeak.com/channels/1479261/maps/channel_show" height="300" width="500" frameBorder="0" title="Iframe Example"></iframe>
-<br>     
- 
-   
-     
+<br>        
  </body>
 </html>

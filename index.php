@@ -31,7 +31,8 @@ $user_data = array_slice($user_data, 0);
 
 ?>  
  <h2>Humidity</h2>                                                                                  
-<iframe src="https://thingspeak.com/channels/1479261/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" height="300" width="500" frameBorder="0" title="Iframe Example"></iframe>
+<iframe src="https://thingspeak.com/channels/1479261/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" 
+	height="300" width="500" frameBorder="0" title="Iframe Example"></iframe>
  <?php
    foreach ($user_data as $user) {
 	echo "Humidity: ".$user->field1; 
@@ -39,7 +40,8 @@ $user_data = array_slice($user_data, 0);
    }?> 
  <br>  
  <h2>Temperature</h2>  
-<iframe src="https://thingspeak.com/channels/1479261/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" height="300" width="500" frameBorder="0" title="Iframe Example"></iframe>
+<iframe src="https://thingspeak.com/channels/1479261/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" 
+	height="300" width="500" frameBorder="0" title="Iframe Example"></iframe>
 <?php
    foreach ($user_data as $user) {
 	echo "Temperature: ".$user->field2; 
@@ -47,7 +49,8 @@ $user_data = array_slice($user_data, 0);
    }?> 
  <br> 
  <h2>Map</h2>  
-<iframe src="https://thingspeak.com/channels/1479261/maps/channel_show" height="300" width="500" frameBorder="0" title="Iframe Example"></iframe>
+<iframe src="https://thingspeak.com/channels/1479261/maps/channel_show" height="300" 
+	width="500" frameBorder="0" title="Iframe Example"></iframe>
 <br>        
  </body>
 </html>
